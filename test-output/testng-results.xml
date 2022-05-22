@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45702" started-at="2022-05-21T23:49:01 IST" finished-at="2022-05-21T23:49:46 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Run@42eca56e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="45702" started-at="2022-05-21T23:49:01 IST" finished-at="2022-05-21T23:49:46 IST">
+      <class name="Runner.Run">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Run@42eca56e]" name="setUpClass" is-config="true" duration-ms="217" started-at="2022-05-21T23:49:01 IST" finished-at="2022-05-21T23:49:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6134ac4a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Run@42eca56e]" name="runScenario" duration-ms="23992" started-at="2022-05-21T23:49:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-21T23:49:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Twitter application test case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case for twitter application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Run@42eca56e]" name="runScenario" duration-ms="21442" started-at="2022-05-21T23:49:25 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-21T23:49:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fetch tweets of the page and validate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case for twitter application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.Run@42eca56e]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2022-05-21T23:49:46 IST" finished-at="2022-05-21T23:49:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
